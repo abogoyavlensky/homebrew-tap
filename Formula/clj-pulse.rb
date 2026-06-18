@@ -11,23 +11,23 @@ class CljPulse < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.0-rc1/clj-pulse-x86_64-apple-darwin.tar.gz"
-      sha256 "e98c6adadcd4540ba0e06861fedc9527fcb94bc1b9867cbcf23e4c533e9f6ff2"
+      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.0/clj-pulse-x86_64-apple-darwin.tar.gz"
+      sha256 "43f061562980e831e068c3e27f882029e4f0114fe8d1bc2893955ab1db68b1a4"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.0-rc1/clj-pulse-aarch64-apple-darwin.tar.gz"
-      sha256 "e59d29e3b908681778d4fe18a7196929061774293c307ce837054aea71c28b8f"
+      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.0/clj-pulse-aarch64-apple-darwin.tar.gz"
+      sha256 "42729e227f01510ca6ccab79a592f014254b89debbbd0fa7b221337dd24be6e4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.0-rc1/clj-pulse-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "de5350b21b096000e76dc0cf3caf8f9aef2b891740c686b624b933cf99b161f4"
+      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.0/clj-pulse-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f8717505a3cbcbcf108996046a26b767bb310325c6a4b4b3bb9dd446401a37cb"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.0-rc1/clj-pulse-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d53d01321b35b25228c6f84c6c411bd56684d686124d55272f774b7ab770f1a4"
+      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.0/clj-pulse-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "03cd7ed04b5397db4babe4da6ddbb5295dd7f44391ca1e53aed57ff87991c784"
     end
   end
 
