@@ -11,23 +11,23 @@ class Lgx < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc1/lgx_0.1.0-rc1_darwin_amd64.tar.gz"
-      sha256 "0a2279d72e7b791185d4b630c80fa613bfb8b562e0ffedfe2d1af5e8d1c3e3fe"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc2/lgx_0.1.0-rc2_darwin_amd64.tar.gz"
+      sha256 "525a6c9f6831969abcf54970a975fbd10a8749091d3697676b3f32e86486ac16"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc1/lgx_0.1.0-rc1_darwin_arm64.tar.gz"
-      sha256 "029a8752c378048de18221466309b3ae3693caf82dcc0c0af7fef8f4827dde57"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc2/lgx_0.1.0-rc2_darwin_arm64.tar.gz"
+      sha256 "38cbcfb8d99ab552e58d928b94d50e56730279ef08746646185704329f1504cf"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc1/lgx_0.1.0-rc1_linux_amd64.tar.gz"
-      sha256 "67aa759cd07de8949a5594fa8765db477ae9357c9ca6ccfaf57f7c5529b59aaf"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc2/lgx_0.1.0-rc2_linux_amd64.tar.gz"
+      sha256 "e17d33f7bd6bec5259a245f365cd883371f91eed7373eb4724fabf867f14d602"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc1/lgx_0.1.0-rc1_linux_arm64.tar.gz"
-      sha256 "ae0cb79975e14be6ba941d1ce68127089093fbdcd636a91234914231291c926f"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc2/lgx_0.1.0-rc2_linux_arm64.tar.gz"
+      sha256 "e7a91494d61f90c5bb3aca14b9e6ca107138fbf1d74d7725e688bca4035a89a5"
     end
   end
 
