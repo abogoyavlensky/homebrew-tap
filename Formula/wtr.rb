@@ -11,23 +11,23 @@ class Wtr < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.1/wtr_0.1.1_darwin_amd64.tar.gz"
-      sha256 "4a68a3af27f3ec5e1ff29774449456dfb768f5daba52c3da7151653ca851f81a"
+      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.2/wtr_0.1.2_darwin_amd64.tar.gz"
+      sha256 "250452c4bc88df4bbca7d9cbc1ec6e38c19cf69160e353b3ae6656496264c663"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.1/wtr_0.1.1_darwin_arm64.tar.gz"
-      sha256 "82981c3b71036144501fe01fca1cc9a82067a4204915ba6b02a43aedf918d8af"
+      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.2/wtr_0.1.2_darwin_arm64.tar.gz"
+      sha256 "653f95d0e64b3bd677a9dbb7594c4d601784e5609f575b2b2e64f4dfd6a768b8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.1/wtr_0.1.1_linux_amd64.tar.gz"
-      sha256 "cd78d365b961bfe5f838fbff16a089cf47b21492d1eb21f97c56fb45c7485f5a"
+      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.2/wtr_0.1.2_linux_amd64.tar.gz"
+      sha256 "dfd6ee931484a706377a246a77302ab557c559f76bf239bc8ff0a5b9feefdedf"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.1/wtr_0.1.1_linux_arm64.tar.gz"
-      sha256 "566d582885e1b28acac0c92af8baba7fa6cdf463253b09742aa9adad11118575"
+      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.2/wtr_0.1.2_linux_arm64.tar.gz"
+      sha256 "f97bb2908882b9919aaa549cfd686ced76e8c3b94c7f680ed6dda6dcfdbe9703"
     end
   end
 
