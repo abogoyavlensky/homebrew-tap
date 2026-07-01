@@ -3,39 +3,45 @@
 class Lgx < Formula
   desc "Package and project manager for the let-go Clojure dialect"
   homepage "https://github.com/abogoyavlensky/lgx"
-  version "0.1.0-rc3"
+  version "0.1.0-rc4"
   license "MIT"
 
   livecheck do
     skip "Formula is updated by lgx release CI"
   end
 
-  depends_on "nooga/tap/let-go"
-
   on_macos do
     on_intel do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc3/lgx_0.1.0-rc3_darwin_amd64.tar.gz"
-      sha256 "42626926fb8070c26b5f20fd60dfb9e586073bdd5b3674a2e49a04485e8db958"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc4/lgx_0.1.0-rc4_darwin_amd64.tar.gz"
+      sha256 "4efa8e06ca11b965a3664bef4b465a959d5cdc9cab0932c9e4b07e6f93612238"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc3/lgx_0.1.0-rc3_darwin_arm64.tar.gz"
-      sha256 "e9756cca992ae259054a9bbb693556c08e29b301254524b61da950760ed79346"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc4/lgx_0.1.0-rc4_darwin_arm64.tar.gz"
+      sha256 "cb6aa4b161fce0eff99b3e7b4f61e408a283704713174c3d6319ef37e5d8ce26"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc3/lgx_0.1.0-rc3_linux_amd64.tar.gz"
-      sha256 "c9ce564f6f57cd144733cff96fe8dc1e6ad8f832f009214123a1db09bb747d40"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc4/lgx_0.1.0-rc4_linux_amd64.tar.gz"
+      sha256 "cf8221f3be73b38f6267920067a5a0a90542f19c1befe9b3af7535b58e3dfe25"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc3/lgx_0.1.0-rc3_linux_arm64.tar.gz"
-      sha256 "7187ccac39fe3228f1476b6ebccbdb099cbf3a490f43af83f7f1656903317d58"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.1.0-rc4/lgx_0.1.0-rc4_linux_arm64.tar.gz"
+      sha256 "06b890f63f5a648bc5273f865029141c973bc06eea1fd412d7b5680c668ef34a"
     end
   end
 
   def install
     bin.install "lgx"
+  end
+
+  def caveats
+    <<~EOS
+      lgx needs the let-go compiler (lg >= 1.11.0) on PATH:
+        brew install nooga/tap/let-go
+      Other options: https://github.com/abogoyavlensky/lgx#requirements
+    EOS
   end
 
   test do
