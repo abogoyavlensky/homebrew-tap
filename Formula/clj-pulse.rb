@@ -3,7 +3,7 @@
 class CljPulse < Formula
   desc "Language server for Clojure"
   homepage "https://github.com/abogoyavlensky/clj-pulse"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class CljPulse < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.2/clj-pulse-x86_64-apple-darwin.tar.gz"
-      sha256 "fe9b47dd3a347878cd48ffbf4b1733a3a41d405223d30d19d6d5a3239627a8be"
+      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.3/clj-pulse-x86_64-apple-darwin.tar.gz"
+      sha256 "d03fac8e8677bcfc3538ef757a348bd83717f0259cf9fc80cb9f0c7fdb2a9841"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.2/clj-pulse-aarch64-apple-darwin.tar.gz"
-      sha256 "029d2b99e20fd92e7ee5dfd946bf53202a65eb343be644a5e02694c0966e537a"
+      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.3/clj-pulse-aarch64-apple-darwin.tar.gz"
+      sha256 "e7d93029705ee70d8a0f3e1203f35d50dbceef3b8e9f2a8e9b89aa906deb0ae9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.2/clj-pulse-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "96dc8ab25d394e2a5b61b72442cd5363a85fc29719afa4c30a6c705b5d46568f"
+      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.3/clj-pulse-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f27cb56e1819a159fbbec708d7a0bade225a50067bb3b95ea96b859ec6aae50c"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.2/clj-pulse-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3cf2b53f1fa3f3968bebec03051e9513ff0c0c7eda5a699ad683be38ee6cc8a9"
+      url "https://github.com/abogoyavlensky/clj-pulse/releases/download/v0.1.3/clj-pulse-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b7958d42f2e7ef8d10f302e46ef5630e5495e40dc9913b27a6b2ab087c224233"
     end
   end
 
