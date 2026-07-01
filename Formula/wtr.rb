@@ -3,7 +3,7 @@
 class Wtr < Formula
   desc "Git worktree router for managing multiple worktrees"
   homepage "https://github.com/abogoyavlensky/wtr"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Wtr < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.4/wtr_0.1.4_darwin_amd64.tar.gz"
-      sha256 "2f2ff85df062a7c17405605571124e1aa3bd94c083bdf9811b7749ac0db3a992"
+      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.5/wtr_0.1.5_darwin_amd64.tar.gz"
+      sha256 "5924cc2d1fac5bf98e065ccfeebd6d91901ad95486f2b8a56e5daec648a855a9"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.4/wtr_0.1.4_darwin_arm64.tar.gz"
-      sha256 "95cffe0886a8d97c9840806e75ea71e610780c59757ef6bceb529c3c176f90fd"
+      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.5/wtr_0.1.5_darwin_arm64.tar.gz"
+      sha256 "03571e29996177b0c4b0e919d2dcde5efd01760144f7cce7cf950d0ce5667b20"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.4/wtr_0.1.4_linux_amd64.tar.gz"
-      sha256 "a8001f5b1a90bc7b1c6149686f7f7a6930f87835021da03595ce150fcabbfded"
+      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.5/wtr_0.1.5_linux_amd64.tar.gz"
+      sha256 "59e5bc6f74cd6ec3cc80c239268cb0ab4500c9bd300c50c83b0c25f28561dae3"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.4/wtr_0.1.4_linux_arm64.tar.gz"
-      sha256 "5fb24f67ed10990ae10706389f46a6304d8eb4e39367083ed2901f32ecfed6a7"
+      url "https://github.com/abogoyavlensky/wtr/releases/download/v0.1.5/wtr_0.1.5_linux_arm64.tar.gz"
+      sha256 "587d40795356c749811155a354ed62dafff315f9d78ac9e3fc2eae2bd909d90c"
     end
   end
 
