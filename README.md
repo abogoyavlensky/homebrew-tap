@@ -13,10 +13,15 @@ brew install abogoyavlensky/tap/lgx
 Works on macOS and Linux, Intel and ARM. The command taps this
 repository automatically.
 
-The formula depends on let-go, so this also installs the `lg` compiler
-and puts it on `PATH` — nothing else to install. See the
-[lgx requirements](https://github.com/abogoyavlensky/lgx#requirements)
-for details.
+lgx also needs the let-go compiler (`lg` >= 1.11.0) on `PATH`. Install it
+with:
+
+```sh
+brew install nooga/tap/let-go
+```
+
+For other options, see the
+[lgx requirements](https://github.com/abogoyavlensky/lgx#requirements).
 
 ### Upgrade
 
