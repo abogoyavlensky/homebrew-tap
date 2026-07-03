@@ -3,7 +3,7 @@
 class Skl < Formula
   desc "Fetch and install agent skills from any git repository"
   homepage "https://github.com/abogoyavlensky/skl"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Skl < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/abogoyavlensky/skl/releases/download/v0.1.0/skl_0.1.0_darwin_amd64.tar.gz"
-      sha256 "1f35e77abccd2f5018ed2d9b216d458a2ea8956b9433c7ce273b927c4aa79c5d"
+      url "https://github.com/abogoyavlensky/skl/releases/download/v0.1.1/skl_0.1.1_darwin_amd64.tar.gz"
+      sha256 "ad5f1b3fe88468a73e7098e55dba2bd7395646827eacd351f82681506e1bb28b"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/skl/releases/download/v0.1.0/skl_0.1.0_darwin_arm64.tar.gz"
-      sha256 "1e9b9f0cbe686567779933cc7dba2b5b35b2c49f18c9a0fe2eab1a043ff2ca84"
+      url "https://github.com/abogoyavlensky/skl/releases/download/v0.1.1/skl_0.1.1_darwin_arm64.tar.gz"
+      sha256 "48c96eb619c44cc95c9922ab3238ef47b8b4c39eadc3d0e68fc25f12f9408be5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abogoyavlensky/skl/releases/download/v0.1.0/skl_0.1.0_linux_amd64.tar.gz"
-      sha256 "283f37bd2b2fb5fcd1d964feeb768d482f23e9b49b5a56f4008bcb97791337ca"
+      url "https://github.com/abogoyavlensky/skl/releases/download/v0.1.1/skl_0.1.1_linux_amd64.tar.gz"
+      sha256 "509b3e439859e0e9bcbcc2280f1a6f2320174ee40ca5ef2ac4f5ec0f53706211"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/skl/releases/download/v0.1.0/skl_0.1.0_linux_arm64.tar.gz"
-      sha256 "0f1562c53a9776e8815810bfdcbbd55b57000c3b3ce0f20353e106aeac0b0206"
+      url "https://github.com/abogoyavlensky/skl/releases/download/v0.1.1/skl_0.1.1_linux_arm64.tar.gz"
+      sha256 "438d14c68a292658af8c83c064bd0f5008f10448731cf724c04f9eef215a5ff3"
     end
   end
 
