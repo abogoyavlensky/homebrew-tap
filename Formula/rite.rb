@@ -3,7 +3,7 @@
 class Rite < Formula
   desc "Task runner for any project with an embedded let-go runtime"
   homepage "https://github.com/abogoyavlensky/rite"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Rite < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/abogoyavlensky/rite/releases/download/v0.1.0/rite_0.1.0_darwin_amd64.tar.gz"
-      sha256 "8ae929c3583932697dcbdc32ba67930c8dbec12bb0bf65bf629154e9007d9f63"
+      url "https://github.com/abogoyavlensky/rite/releases/download/v0.1.1/rite_0.1.1_darwin_amd64.tar.gz"
+      sha256 "7a90117e50cefa44476636a3d6817ee0e27a8c1ea6e28c4ec1e4993094786cbf"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/rite/releases/download/v0.1.0/rite_0.1.0_darwin_arm64.tar.gz"
-      sha256 "202d05286cdf0bcea135cbf497925ec77c05485d824896aad74c6b93da5e26ad"
+      url "https://github.com/abogoyavlensky/rite/releases/download/v0.1.1/rite_0.1.1_darwin_arm64.tar.gz"
+      sha256 "5d50b104a68695a4f3a7acbd22dbb3c15f348ee14eca6c6f5f404ba95faf26b8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abogoyavlensky/rite/releases/download/v0.1.0/rite_0.1.0_linux_amd64.tar.gz"
-      sha256 "b1bd9ff1d3164a307612e28a2d7426add75930fd8bf5fe96dd2c45d00213f2ec"
+      url "https://github.com/abogoyavlensky/rite/releases/download/v0.1.1/rite_0.1.1_linux_amd64.tar.gz"
+      sha256 "199871463eca7932b1aa4e8dc36501ec25c890cc44efacf7e5f0654001ef664f"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/rite/releases/download/v0.1.0/rite_0.1.0_linux_arm64.tar.gz"
-      sha256 "c1d809ee1adbffdd9f69c542515302e4a66d128d75e57cb7e6d82a9d705d164c"
+      url "https://github.com/abogoyavlensky/rite/releases/download/v0.1.1/rite_0.1.1_linux_arm64.tar.gz"
+      sha256 "49046f675050220c95c4827a4c421fc01b994cac2f67009794c1371097b29409"
     end
   end
 
