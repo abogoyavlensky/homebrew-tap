@@ -3,7 +3,7 @@
 class Lgx < Formula
   desc "Package and project manager for the let-go Clojure dialect"
   homepage "https://github.com/abogoyavlensky/lgx"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Lgx < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.3.0/lgx_0.3.0_darwin_amd64.tar.gz"
-      sha256 "96e196ffb82e998b273f9f35bb250eb8841dd58429b63ddca95873980f48d770"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.3.1/lgx_0.3.1_darwin_amd64.tar.gz"
+      sha256 "4f0161dc2d054e7dcff2af099699ea1e3a66b23f22f67da11eae884df857ad08"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.3.0/lgx_0.3.0_darwin_arm64.tar.gz"
-      sha256 "6fe5938f9e015a55e8fe1c3010e40b2c804e9715fdf4625c8a5db1ae18d80541"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.3.1/lgx_0.3.1_darwin_arm64.tar.gz"
+      sha256 "1e489772caced5d5dbac837868dde93e60e896189be11bcd7fa62fb7920f9e73"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.3.0/lgx_0.3.0_linux_amd64.tar.gz"
-      sha256 "fbe880dd52e5a872498730c5c61cf978ecd54d390497a574ccb8ce0ae9a6f85c"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.3.1/lgx_0.3.1_linux_amd64.tar.gz"
+      sha256 "8fa4aedf0ea6c9eb34c1e4e83e3445a44177bcea37f594ebd976f33b9ff844a7"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.3.0/lgx_0.3.0_linux_arm64.tar.gz"
-      sha256 "ad263b16b3cb931b98150e45d9cda1d55a0553a70c5d6d6a39929168554cc88d"
+      url "https://github.com/abogoyavlensky/lgx/releases/download/v0.3.1/lgx_0.3.1_linux_arm64.tar.gz"
+      sha256 "2e9946250f0ba83b62b8f0efa42dfc45c1f166d9c241e26b76c7cf27810588ee"
     end
   end
 
