@@ -3,7 +3,7 @@
 class Frame < Formula
   desc "Declarative project templater"
   homepage "https://github.com/abogoyavlensky/frame"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Frame < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/abogoyavlensky/frame/releases/download/v0.1.3/frame_0.1.3_darwin_amd64.tar.gz"
-      sha256 "11cb2e22e3715a6f40de9aa5740b5da629ce633736e642a916712ba354b6d22e"
+      url "https://github.com/abogoyavlensky/frame/releases/download/v0.1.4/frame_0.1.4_darwin_amd64.tar.gz"
+      sha256 "dc447246741397594ca8a61167179ccccbbfe2912acd8559a1e188eb283e0f63"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/frame/releases/download/v0.1.3/frame_0.1.3_darwin_arm64.tar.gz"
-      sha256 "3018bb569b698ad617c505475bd1d87aaf52c7381d94c51d2b112b9fc3fe8cf8"
+      url "https://github.com/abogoyavlensky/frame/releases/download/v0.1.4/frame_0.1.4_darwin_arm64.tar.gz"
+      sha256 "1d018cbadc215c4c606cf08c8764ce56bdc4c67a224987ac9a2fa5d4b0a962bf"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abogoyavlensky/frame/releases/download/v0.1.3/frame_0.1.3_linux_amd64.tar.gz"
-      sha256 "8a0107ed036db81dcce544e44d0ba9119c149ed4c3289fdf2c12f1ad625df549"
+      url "https://github.com/abogoyavlensky/frame/releases/download/v0.1.4/frame_0.1.4_linux_amd64.tar.gz"
+      sha256 "b6047449f81de03087b79c403ee2600968cd64e64d6ae5e7534bb4792a620585"
     end
     on_arm do
-      url "https://github.com/abogoyavlensky/frame/releases/download/v0.1.3/frame_0.1.3_linux_arm64.tar.gz"
-      sha256 "e567d9fe779d99dab43f7e51a639677d82365368d7550060796ed43ed5ea8bd3"
+      url "https://github.com/abogoyavlensky/frame/releases/download/v0.1.4/frame_0.1.4_linux_arm64.tar.gz"
+      sha256 "36dc3314ff3f0c514e1dfb520a4168d54b46fb9d60df64dd374a27060916eb13"
     end
   end
 
